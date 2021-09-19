@@ -32,7 +32,6 @@ export default new Vuex.Store({
     },
     SEARCH(state, payload) {
       state.search_jokes = state.jokes.filter(i=> i.joke.match(new RegExp(payload, 'gi')))
-      console.log(state.search_jokes)
     }
   },
   actions: {

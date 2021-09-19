@@ -6,7 +6,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import card from "../components/card";
 
 export default {
@@ -21,7 +20,6 @@ export default {
   },
   async mounted() {
     await this.getJoke();
-    console.log(this.joke)
   },
   methods:{
     async getJoke() {

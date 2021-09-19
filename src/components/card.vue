@@ -34,7 +34,8 @@
     background-color: #42b983;
     padding: 10px;
     border-radius: 3px;
-    margin-bottom: 10px;
+    max-width: 600px;
+    margin: 10px auto;
     .card-body{
       display: flex;
       justify-content: space-between;
